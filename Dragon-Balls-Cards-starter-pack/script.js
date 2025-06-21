@@ -28,7 +28,7 @@ const createCard = (character) => {
                 </div>
                 <div class="info">
                     <h2>${character.name}</h2>
-                    <span class="supermove">Super Move: ${character.superMove}</span>
+                    <span class="super-move">Super Move: ${character.superMove}</span>
                     <div class="stats">
                         <span>Strength: ${character.strength}</span>
                         <span>Speed: ${character.speed}</span>
