@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     title.textContent = "Dragon Ball Character Cards";
     randomButton.textContent = "Choose A Random Card";
 
-    characters.map((characters) => createCard(character));
+    characters.map((character) => createCard(character));
     randomButton.addEventListener("click", chooseRandomCard);
 });
 
